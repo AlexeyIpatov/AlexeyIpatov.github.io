@@ -9,6 +9,9 @@
 		<link rel="stylesheet" href="css/stuck.css">
 		<link rel="stylesheet" href="css/form.css">
 		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!--<link rel="stylesheet" href="css/reset.css">-->
+        <link rel="stylesheet" href="css/lightbox.css">
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/script.js"></script>
@@ -19,10 +22,109 @@
 		<script src="js/tmStickUp.js"></script>
 		<script src="js/jquery.ui.totop.js"></script>
 		<script src="js/sForm.js"></script>
+        <script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
 		<script>
 			$(document).ready(function(){
 			$().UItoTop({ easingType: 'easeOutQuart' });
 			$('#stuck_container').tmStickUp({});
+			$('#py_2').click(function () {
+			    $('#py_2_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#py_2').click(function () {
+			    $('#py_2_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#py_3').click(function () {
+			    $('#py_3_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#cro_1').click(function () {
+			    $('#cro_1_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#cro_2').click(function () {
+			    $('#cro_2_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#cro_3').click(function () {
+			    $('#cro_3_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#skat_1').click(function () {
+			    $('#skat_1_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#skat_2').click(function () {
+			    $('#skat_2_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#skat_3').click(function () {
+			    $('#skat_3_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#snake_1').click(function () {
+			    $('#snake_1_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#snake_2').click(function () {
+			    $('#snake_2_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('#snake_3').click(function () {
+			    $('#snake_3_modal').bPopup({
+			        easing: 'easeOutBack', //uses jQuery easing plugin
+			        speed: 650,
+			        transition: 'slideDown'
+			    });
+			});
+			$('.show_modal').click(function () {
+			    $('#form_modals').bPopup({
+			        speed: 650,
+			        transition: 'slideIn'
+			    });
+			});
+			$('.go_see_more').click(function () {
+			    $('#form_modals_see_more').bPopup({
+			        speed: 650,
+			        transition: 'slideIn'
+			    });
+			});
 		});
 		</script>
 		<!--[if lt IE 8]>
@@ -319,7 +421,8 @@
 										</div>
 									</div>
 									<div class="grid_3">
-										<a href="#" class="btn bt__2" data-type="submit">СВЯЗАТЬСЯ</a>
+										<!--<a href="#" class="btn bt__2" data-type="submit">СВЯЗАТЬСЯ</a>-->
+                                        <a href="#top_call" id="A1" class="script_help show_modal ex_hover">
 									</div>
 								</div>
 							</form>
