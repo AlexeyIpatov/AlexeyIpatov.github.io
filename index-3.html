@@ -19,8 +19,122 @@
 		<script src="js/tmStickUp.js"></script>
 		<script src="js/jquery.ui.totop.js"></script>
 		<script src="js/sForm.js"></script>
-		<script>
-			$(document).ready(function(){
+        <script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('.close').click(function () {
+            $('.popup_modal').bPopup().close();
+        });
+    });
+
+    $(function () {
+        $('#py_1').click(function () {
+            $('#py_1_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#py_2').click(function () {
+            $('#py_2_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#py_2').click(function () {
+            $('#py_2_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#py_3').click(function () {
+            $('#py_3_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#cro_1').click(function () {
+            $('#cro_1_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#cro_2').click(function () {
+            $('#cro_2_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#cro_3').click(function () {
+            $('#cro_3_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#skat_1').click(function () {
+            $('#skat_1_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#skat_2').click(function () {
+            $('#skat_2_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#skat_3').click(function () {
+            $('#skat_3_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#snake_1').click(function () {
+            $('#snake_1_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#snake_2').click(function () {
+            $('#snake_2_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('#snake_3').click(function () {
+            $('#snake_3_modal').bPopup({
+                easing: 'easeOutBack', //uses jQuery easing plugin
+                speed: 650,
+                transition: 'slideDown'
+            });
+        });
+        $('.show_modal').click(function () {
+            $('#form_modals').bPopup({
+                speed: 650,
+                transition: 'slideIn'
+            });
+        });
+        $('.go_see_more').click(function () {
+            $('#form_modals_see_more').bPopup({
+                speed: 650,
+                transition: 'slideIn'
+            });
+        });
+    });		
+				$(document).ready(function(){
 			$().UItoTop({ easingType: 'easeOutQuart' });
 			$('#stuck_container').tmStickUp({});
 		});
@@ -86,7 +200,7 @@
 									<p>Необходимо оставить заявку на сайте и наш специалист свяжется с Вами или просто позвонить по номеру +375 25 721-53-96.</p>
 									Мы поможем Вам определиться с материалом, подберем Вам нужный размер вещи.
 									<br>
-									<a href="#" class="btn bt__2">СВЯЗАТЬСЯ</a>
+									<a href="#top_call" id="A3" class="script_help1 show_modal ex_hover">СВЯЗАТЬСЯ</a>
 								</div>
 							</div>
 							<div class="blog">
@@ -96,7 +210,7 @@
 									<h3 class="blog_head color1"><a href="#">Обсудить эскиз</a></h3>
 									<p>Наш специалист поможет определиться Вам с выбором эскиза или попросит выслать Вас свой вариант. </p>
 									Только после окончатального согласования размеров, материала и положения, мы будем переходить с следующему этапу.									<br>
-									<a href="#" class="btn bt__2">СВЯЗАТЬСЯ</a>
+									<a href="#top_call" id="A5" class="script_help1 show_modal ex_hover">СВЯЗАТЬСЯ</a>
 								</div>
 							</div>
 							<div class="blog">
@@ -107,7 +221,7 @@
 									<p>Изготовление изделия производится в срок от 1 до 24 часов. <br> </p>
 									На следующий день вы уже сможете забрать свою вещь.
 									<br>
-									<a href="#" class="btn bt__2">СВЯЗАТЬСЯ</a>
+									<a href="#top_call" id="A1" class="script_help1 show_modal ex_hover">СВЯЗАТЬСЯ</a>
 								</div>
 							</div>
                             <div class="blog">
@@ -118,7 +232,7 @@
 									<p>Вы проверяете изделение и производите оплату. Если Вам что-то не понравится, то мы вернем Вам деньги! <br> </p>
 									Оставляете отзыв и делаем фото на память.
 									<br>
-									<a href="#" class="btn bt__2">СВЯЗАТЬСЯ</a>
+									<a href="#top_call" id="A2" class="script_help1 show_modal ex_hover">СВЯЗАТЬСЯ</a>
 								</div>
 							</div>
 						</div>
@@ -146,7 +260,7 @@
 										</div>
 									</div>
 									<div class="grid_3">
-										<a href="#" class="btn bt__2" data-type="submit">СВЯЗАТЬСЯ</a>
+										<a href="#top_call" id="A4" class="script_help1 show_modal ex_hover">СВЯЗАТЬСЯ</a>
 									</div>
 								</div>
 							</form>
@@ -174,5 +288,16 @@
 			</div>
 		
 		</footer>
+        <div class="popup_modal" id="form_modals">
+    <h1 id="script_help" style="display: none;"></h1>
+    <h2>ОСТАВЬТЕ ЗАЯВКУ</h2>
+    <p>и наш специалист свяжется с Вами</p>
+    <form action="sendMessage.php" method="post" id="hidden_form">
+        <input name="name" type="text" placeholder="ИМЯ" id="hidden_name" />
+        <input name="phone" type="text" placeholder="ТЕЛЕФОН" id="hidden_telephone" />
+        <input name="email" type="text" placeholder="E-MAIL" id="hidden_email" />
+        <input type="submit" value="ОТПРАВИТЬ" class="ex_hover" />
+    </form>
+</div>
 	</body>
 </html>

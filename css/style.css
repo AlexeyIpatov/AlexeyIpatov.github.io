@@ -1,7 +1,6 @@
 ﻿@import "grid.css";
-@import "font-awesome.css";
 @import "superfish.css";
-
+@import "font-awesome.css";
 @import url(//fonts.googleapis.com/css?family=BenchNine:400);
 @import url(//fonts.googleapis.com/css?family=BenchNine:300);
 @import url(//fonts.googleapis.com/css?family=BenchNine:700);
@@ -11,6 +10,14 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400italic);
+@font-face{    font-family:PFDinTextCondPro;     src:url('../fonts/PFDinTextCondPro-Regular.ttf') format('truetype');     font-weight:400;     font-style:normal}
+@font-face{    font-family:PFDinTextCondPro;     
+            src: url('../fonts/PFDinTextCondPro-Medium.eot');
+            src: url('../fonts/PFDinTextCondPro-Medium.eot?') format('embedded-opentype'),
+                 url('../fonts/PFDinTextCondPro-Medium.woff') format('woff'),
+                 url('../fonts/PFDinTextCondPro-Medium.ttf') format('truetype');
+            font-weight:500;  font-style:normal}
+@font-face{    font-family:PFDinTextCondPro;     src:url('../fonts/PFDinTextCondPro-Light.ttf') format('truetype');  font-weight:300;  font-style:normal}
 html {
     width: 100%;
 
@@ -302,10 +309,13 @@ a:hover {
     color: #fe7676;
 }
 
-.script_help {
+.script_help1 {
     color: #212121;
     display: inline-block;
     border-radius: 3px;
+right: 0;
+    line-height: 35px;
+padding: 5px 32px 5px;
 background: rgb(255,255,255); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(254,254,254,1) 25%, rgba(230,230,230,1) 54%, rgba(191,191,191,1) 78%, rgba(158,158,158,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(25%,rgba(254,254,254,1)), color-stop(54%,rgba(230,230,230,1)), color-stop(78%,rgba(191,191,191,1)), color-stop(100%,rgba(158,158,158,1))); /* Chrome,Safari4+ */
@@ -316,7 +326,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(254,254,254,1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#9e9e9e',GradientType=0 ); /* IE6-9 */
 }
 
-.show_modal ex_hover {
+.script_help1.show_modal ex_hover {
     font-size: 0px;
     line-height: 35px;
     padding: 43px 72px 37px;
