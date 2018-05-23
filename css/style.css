@@ -310,7 +310,7 @@ a:hover {
 }
 
 .script_help1 {
-    color: #212121;
+    color: #ec7f9e;
     display: inline-block;
     border-radius: 3px;
 right: 0;
@@ -478,7 +478,7 @@ header h1 a img {
 
 /*Blocks*/
 .block1 {
-    background-color: #a56375;
+    background-color: #ec7f9e;
     color: #fff;
     font-size: 36px;
     line-height: 35px;
@@ -631,7 +631,7 @@ header h1 a img {
 /**Bot block**/
 
 .bottom_block {
-    background-color: #a56375;
+    background-color: #ec7f9e;
     color: #000;
     font-size: 20px;
     line-height: 35px;

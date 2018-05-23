@@ -1,4 +1,4 @@
-
+﻿
 .menu_block  {
 	z-index: 999;
 	position: relative;
@@ -14,7 +14,7 @@
 
 
 nav>.sf-menu {
-	z-index: 990;
+	z-index: 890;
 	text-align: center;
 	position: relative;
 }
@@ -60,7 +60,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	height: 0px;
 	border-style: solid;
 	border-width: 7px 5px 0 5px;
-	border-color: #040404 transparent transparent transparent;
+	border-color: #ec7f9e transparent transparent transparent;
 	position: absolute;
 	top: -30px;
 	left: 50%;
@@ -71,11 +71,11 @@ nav{ position:relative;padding: 0px 0 0 0;}
 }
 
 .sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li>a:hover {
-	color: #dd6d8c;
+	color: #1c1c1c;
 }
 
 .sf-menu>li.sfHover>a:after, .sf-menu>li.current>a:after, .sf-menu>li>a:hover:after {
-	border-top-color: #dd6d8d;
+	border-top-color: #ec7f9e;
 }
 
 
